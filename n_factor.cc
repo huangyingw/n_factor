@@ -7,12 +7,14 @@ using namespace std;
 int isNFactored(int value, int n)
 {
   int result=0,count=0;
+  int i=1;
   if (value>0)
   {
-    while(int i =1;(i*i)<=value;i++)
+    while(i*i<=value)
     {
       if(0==value%i)
         count++;
+      i++;
     }
     if (count==n)
       result=1;
