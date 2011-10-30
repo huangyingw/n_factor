@@ -1,2 +1,2 @@
 make -B \
-&& ./even_odd.exe
+&& ./n_factor.exe

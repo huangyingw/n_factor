@@ -1,3 +1,3 @@
-OBJECTS = even_odd.exe
+OBJECTS = n_factor.exe
 include ../../GNU_makefile_template
-LOCFLAGS = -I../even_odd
+LOCFLAGS = -I../n_factor
