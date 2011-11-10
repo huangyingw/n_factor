@@ -29,12 +29,12 @@ int main()
   cout<<isNFactored(7,0)<<endl;//1,all prime numbers are 0-factored
   cout<<isNFactored(-5,3)<<endl;//0,the value must be greated than 0
   /*
-   1
-   0
-   0
-   1
-   1
-   0
-   */
+     1
+     0
+     0
+     1
+     1
+     0
+     */
   return 0;
 }
