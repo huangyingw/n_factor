@@ -6,7 +6,7 @@ using namespace std;
 
 int isNFactored(int value, int n)
 {
-  int result=0,count=0;
+  int count=0;
   if (value>0)
   {
     for (int i=2;i<value;i++)
@@ -15,9 +15,9 @@ int isNFactored(int value, int n)
         count++;
     }
     if (count==n)
-      result=1;
+      return 1;
   }
-  return result;
+  return 0;
 }
 
 int main() 
